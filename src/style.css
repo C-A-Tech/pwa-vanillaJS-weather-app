@@ -6,7 +6,16 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+footer {
+  position: relative;
+  top: 150px;
+  text-align: center;
+  margin: 70px;
+}
+footer,
+footer a {
+  color: rgba(255, 255, 255, 0.432);
+}
 .card.body {
   margin: 0;
   padding: 20px;
