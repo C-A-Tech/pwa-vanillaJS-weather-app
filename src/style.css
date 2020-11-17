@@ -1,6 +1,5 @@
 body {
   background-color: #2f0059;
-  /* background: linear-gradient(to top, #ff16ce, #61f1d8, #2f0059 20%); */
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -23,9 +22,9 @@ footer a {
   top: 200px;
   background: #2f0059;
   height: 650px;
-  border: 3px solid white;
+  border: none;
   border-radius: 20px;
-  box-shadow: 5px -5px 30px 5px #ff16ce;
+  box-shadow: 0px 0px 30px 5px #ff16ce;
 }
 .logo {
   width: 250px;
@@ -33,8 +32,8 @@ footer a {
   position: relative;
   top: -130px;
   left: -170px;
-  border: 1px solid white;
-  box-shadow: -12px -12px 30px 5px #61f1d8;
+  border: none;
+  box-shadow: 0px 0px 10px 1px #61f1d8;
 }
 .card.content {
   background: #2f0059;
@@ -84,8 +83,8 @@ footer a {
 .geo-btn {
   font-size: 40px;
   position: relative;
-  top: 10px;
-  left: -60px;
+  top: -10px;
+  left: -75px;
 }
 .btn:focus {
   outline: none;
@@ -94,10 +93,12 @@ footer a {
 .btn-outline-success {
   font-family: "Molengo", sans-serif;
   color: #56ec43;
-  height: 70px;
+  font-size: 25px;
+  height: 90px;
   position: relative;
   top: 10px;
   right: 40px;
+  border: none;
 }
 
 .todays-weather {
@@ -109,7 +110,6 @@ footer a {
 
 #temp-number {
   font-size: 200px;
-  /* text-shadow: 0 28px 20px #d380736e; */
 }
 
 .unit {
@@ -133,8 +133,8 @@ footer a {
   top: 40px;
   height: 190px;
   object-fit: contain;
-  /* -webkit-filter: drop-shadow(0 28px 20px #d37f73); */
 }
+
 .date-time {
   text-align: center;
   font-size: 15px;
