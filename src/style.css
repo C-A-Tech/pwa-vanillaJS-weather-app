@@ -10,7 +10,7 @@ footer {
   position: relative;
   top: 150px;
   text-align: center;
-  margin: 70px;
+  margin: 70px auto;
 }
 footer,
 footer a {
