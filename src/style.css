@@ -10,10 +10,11 @@ footer {
   top: 150px;
   text-align: center;
   margin: 70px auto;
-}
-footer,
-footer a {
   color: rgba(255, 255, 255, 0.432);
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.747);
 }
 .card.body {
   margin: 0;
