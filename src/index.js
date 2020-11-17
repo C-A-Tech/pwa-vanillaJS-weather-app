@@ -55,7 +55,7 @@ function showTemperature (response) {
               let weatherIconElement = document.querySelector("#weather-icon");
               let iconAPI = `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@4x.png`;
               weatherIconElement.setAttribute("src", iconAPI);
-console.log(response.data.weather[0].icon)
+
 
       function changeUnitC (event) {
               event.preventDefault();

@@ -59,14 +59,14 @@ footer a {
   border-bottom-color: white;
   border-radius: 0;
   text-align: center;
-  font-family: cursive;
+  font-family: "Molengo", sans-serif;
   color: rgb(168, 168, 168);
 }
 
 .form-control:focus {
   color: rgb(168, 168, 168);
   text-align: center;
-  font-family: cursive;
+  font-family: "Molengo", sans-serif;
   background-color: #2f0059;
   font-size: 40px;
   height: 100px;
@@ -92,7 +92,7 @@ footer a {
   box-shadow: none;
 }
 .btn-outline-success {
-  font-family: cursive;
+  font-family: "Molengo", sans-serif;
   color: #56ec43;
   height: 70px;
   position: relative;
