@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container" style="width: 700px;" style="height: fit-content;"       >
+      <div class="card body">
+          <div class="card content">
+            <div class="container-sm">
+                <form class="form search">
+                  <div class="row form-group">
+                    <div class="col-sm-2 search-bar">
+                        <video class="logo" autoplay="on" loop="on">
+                          <source src="src/Weather.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-sm-8 search-bar">
+                      <input type="text" class="form-control" placeholder="Enter City Name" autocomplete="off" autofocus="on"
+                        id="search-text" />
+                    </div>
+                    <div class="col-2">
+                      <div class="row">
+                        <div class="col-sm-1 align-self-end">
+                          <input type="button" class="btn geo-btn" value="📍" />
+                        </div>
+                        <div class="col-sm-1 align-self-end">
+                          <button type="submit" class="btn btn-outline-success">Search</button> 
+                        </div>
+                      </div>
+                    </div>
+            
+                  </div>
+                </form>
+                
+                <span class="todays-weather">
+                  <div class="row justify-content-center">
+                      <div class="row">
+                        <div class="col align-self-center current temp">
+                          <h2 id="temp-number">0</h2>
+                        </div>
+                        <div class="col unit">
+                          <a href="#" id="celsius">°C</a> |
+                          <a href="#" id="fahrenheit">°F</a>
+                        </div>
+                        <div class="col">
+                          <img src="images/storm-512.png" id="weather-icon" alt="overcast" />
+                         
+                        </div>
+                      </div>
+                      <div class="row" style="width: 500px;">
+                        <div class="col">
+                          <h4 class="date-time">Last updated:<br/><span id="date"></span></h4>
+                        </div>
+                        <div class="col">
+                          <p id="description">Description</p>
+                        </div>
+                      </div>
+                  </div>  
+                  <div class="row">
+                    <div class="col-12 location">
+                      <h1>
+                        Location
+                      </h1>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center wind-precip" style="width: 500px;">
+                    <div class="col wind">
+                      <p>
+                        🌫: <span id="wind-speed"></span>km
+                      </p>
+                    </div>
+                    <div class="col precip"></div>
+                      <p>
+                        💧: <span id= "humidity"></span> %
+                      </p>
+                    </div>
+
+
+                  </div>
+                
+                </span>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      
+    <script src="src/index.js"></script>
+  </body>
+</html>
