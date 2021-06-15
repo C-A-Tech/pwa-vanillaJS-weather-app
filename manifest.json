@@ -5,7 +5,7 @@
   "short_name": "Weather?",
   "scope": "/",
   "display": "browser",
-  "start_url": "https://peaceful-noether-442232.netlify.app/",
+  "start_url": "https://hows-the-weather-pwa.netlify.app/",
   "icons": [
     {
       "src": "icons/manifest-icon-192.png",
@@ -27,7 +27,7 @@
   "orientation": "portrait",
   "related_applications": [],
   "prefer_related_applications": "false",
-  "url": "https://peaceful-noether-442232.netlify.app/",
+  "url": "https://hows-the-weather-pwa.netlify.app/",
   "generated": true,
   "screenshots": []
 }
